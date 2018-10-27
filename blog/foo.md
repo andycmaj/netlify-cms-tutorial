@@ -6,8 +6,4 @@ title: foo
 
 # FOOOO
 
-## Fooo?
-
-### foo...
-
 > fooobar
