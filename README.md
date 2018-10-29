@@ -1,12 +1,13 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
+## Reference
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+### Libraries
 
-Or [view the live demo here](https://gatsby-starter-hello-world-demo.netlify.com/).
+* https://www.styled-components.com/docs/api
+* https://github.com/kyleamathews/typography.js
+* https://www.gatsbyjs.org/tutorial/part-two/
+* https://using-remark.gatsbyjs.org/
 
-## Running in development
-`gatsby develop`
+### Styles
+
+* https://github.com/philhawksworth/eleventyone/blob/ddabbc755015a79ae4bf5f25cca4195852cbd95d/src/scss/main.scss
+* https://github.com/KyleAMathews/typography.js/blob/master/packages/typography-theme-stern-grove/src/index.js#L18

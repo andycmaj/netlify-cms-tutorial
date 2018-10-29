@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: andycmaj/netlify-cms-tutorial
+  repo: andycmaj/netlify-scalableagile
 
 media_folder: static/assets
 public_folder: assets
