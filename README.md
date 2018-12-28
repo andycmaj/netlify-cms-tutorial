@@ -1,8 +1,13 @@
 ## Reference
 
+### CMS
+
+* https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/
+* https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/
+
 ### Libraries
 
-* https://www.styled-components.com/docs/api
+* https://emotion.sh/
 * https://github.com/kyleamathews/typography.js
 * https://www.gatsbyjs.org/tutorial/part-two/
 * https://using-remark.gatsbyjs.org/
