@@ -1,12 +1,12 @@
 import React from 'react';
-import styled, { createGlobalStyle } from 'styled-components';
-
+import { Global, css } from '@emotion/core';
+import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
 const pageColor = '#067ada';
 const accentColor = '#222';
 
-const GlobalStyle = createGlobalStyle`
+const globalStyles = css`
   * {
     margin: 0;
     padding: 0;
@@ -102,6 +102,6 @@ export default ({ children }) => (
     <Container>
       <div>{children}</div>
     </Container>
-    <GlobalStyle />
+    <Global styles={globalStyles} />
   </React.Fragment>
 );

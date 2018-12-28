@@ -1,9 +1,9 @@
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-styled-components`,
+      resolve: `gatsby-plugin-emotion`,
       options: {
-        ssr: true,
+        // Accepts all options defined by `babel-plugin-emotion` plugin.
       },
     },
     {
