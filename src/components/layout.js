@@ -32,9 +32,6 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 30;
     font-size: 16px;
     line-height: 1.8;
-    @include bp(mid) {
-      font-size: 18px;
-    }
   }
 `;
 
@@ -45,9 +42,6 @@ const Container = styled.div`
   flex-direction: column;
   background-color: rgba(6, 122, 218, 1);
 `;
-
-  // align-items: center;
-  // justify-content: center;
 
 const StyledLink = styled(Link)`
   :link,
