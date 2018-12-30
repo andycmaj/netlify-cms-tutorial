@@ -5,6 +5,7 @@ import theme from 'typography-theme-stern-grove';
 const typography = new Typography({
   ...theme,
   headerColor: '#FFF',
+  headerWeight: 600,
   bodyColor: '#FFF',
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     a: {
@@ -14,6 +15,9 @@ const typography = new Typography({
     },
     'a:hover,a:active': {
       color: '#FFF',
+    },
+    h1: {
+      fontSize: '5em',
     },
   }),
 });
