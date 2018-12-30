@@ -2,6 +2,7 @@ import React from 'react';
 import { Global, css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
+import './montserrat.css';
 
 const pageColor = '#067ada';
 const accentColor = '#222';
@@ -24,7 +25,6 @@ const globalStyles = css`
   body {
     background-color: ${pageColor};
     color: rgba(255, 255, 255, 0.8);
-    font-family: sans-serif;
     font-weight: 30;
     font-size: 18px;
     line-height: 1.8;
@@ -32,28 +32,6 @@ const globalStyles = css`
 
   ul {
     margin-left: 1em;
-  }
-
-  h1,
-  h2,
-  h3 {
-    color: #fff;
-    font-weight: 600;
-    margin: 1em 0;
-    line-height: 1em;
-
-    a {
-      color: #fff;
-    }
-  }
-
-  h4 {
-    color: rgba(255, 255, 255, 0.9);
-    margin: 1em 0;
-
-    a {
-      color: rgba(255, 255, 255, 0.9);
-    }
   }
 `;
 
@@ -92,7 +70,6 @@ const StyledLink = styled(Link)`
 const Header = styled.header`
   padding: 0;
   margin-top: 1em;
-  /* text-align: center; */
 `;
 
 const Nav = styled.ul`
