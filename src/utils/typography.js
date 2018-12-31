@@ -12,10 +12,10 @@ const typography = new Typography({
       color: '#FFF',
       textDecoration: 'none',
       fontWeight: 600,
-      fontFamily: options.headerFontFamily.join(','),
     },
     'a:hover,a:active': {
       color: '#FFF',
+      textDecoration: 'underline',
     },
   }),
 });

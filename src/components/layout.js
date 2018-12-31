@@ -2,6 +2,7 @@ import React from 'react';
 import { Global, css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
+import theme from 'typography-theme-stern-grove';
 import './montserrat.css';
 
 const pageColor = '#067ada';
@@ -45,6 +46,8 @@ const Container = styled.div`
 `;
 
 const StyledLink = styled(Link)`
+  font-family: ${theme.headerFontFamily.join(',')};
+
   :link,
   :visited {
     color: #fff;
@@ -60,6 +63,7 @@ const StyledLink = styled(Link)`
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
   }
+
   :hover,
   :focus {
     border-top: solid 1px ${accentColor};
