@@ -2,6 +2,7 @@ backend:
   name: github
   repo: andycmaj/netlify-scalableagile
 
+publish_mode: editorial_workflow
 media_folder: static/assets
 public_folder: assets
 
@@ -13,5 +14,13 @@ collections:
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
+  - name: guide
+    label: Guide
+    folder: guide
+    create: false
+    fields:
+      - { name: path, label: Path }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }

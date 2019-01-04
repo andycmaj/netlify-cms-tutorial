@@ -28,5 +28,13 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    // {
+    //   resolve: `gatsby-source-datocms`,
+    //   options: {
+    //     // You can find your read-only API token under the Settings > API tokens
+    //     // section of your administrative area:
+    //     apiToken: `e23e293e9858045a7be85c39650bcf`,
+    //   },
+    // },
   ],
 };
