@@ -24,3 +24,19 @@ collections:
       - { name: path, label: Path }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+  - name: events
+    label: Events
+    folder: data/events
+    extension: yml
+    create: true
+    fields:
+      - label: Title
+        name: title
+      - label: Events
+        name: events
+        widget: list
+        fields:
+          - { name: when, label: When, widget: datetime }
+          - { name: city, label: City }
+          - { name: venue, label: Venue }
+          - { name: link, label: 'Tickets Link' }

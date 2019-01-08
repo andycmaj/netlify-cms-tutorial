@@ -28,6 +28,14 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/data/events`,
+        name: 'events',
+      },
+    },
     // {
     //   resolve: `gatsby-source-datocms`,
     //   options: {
