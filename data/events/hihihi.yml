@@ -1,0 +1,10 @@
+title: hihihi
+events:
+  - city: foo
+    link: baz
+    venue: bar
+    when: 2019-01-08T07:22:58.043Z
+  - city: dude
+    link: foost
+    venue: quuz
+    when: 2019-01-08T07:23:08.781Z
